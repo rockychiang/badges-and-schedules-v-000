@@ -17,6 +17,6 @@ end
 def printer(names)
   print = batch_badge_creator(names)
   print << assign_rooms(names)
-  print.each{|i| puts i}
+  print.first{|i| puts i}
 end
   
