@@ -8,7 +8,7 @@ def batch_badge_creator(names)
   return badge_array
 end
 
-def assign_rooms
+def assign_rooms(names)
   room = []
   names.each{|i| room << "Hello, #{i}! You'll be assigned to room #{i.index}!"}
   return room
