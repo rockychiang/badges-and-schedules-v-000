@@ -15,8 +15,8 @@ def assign_rooms(name)
 end
 
 def printer(names)
-  print = batch_badge_creator(names)
-  print << assign_rooms(names)
-  puts print.first
+  badge = batch_badge_creator(names)
+  room = assign_rooms(names)
+  puts room.first
 end
   
