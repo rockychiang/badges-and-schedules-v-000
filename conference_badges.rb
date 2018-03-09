@@ -13,3 +13,5 @@ def assign_rooms(name)
   name.each_with_index{|i, j| room << "Hello, #{i}! You'll be assigned to room #{j + 1}!"}
   return room
 end
+
+def printer(names)
