@@ -19,4 +19,3 @@ def printer(names)
   room = assign_rooms(names)
   puts room.first
 end
-  
