@@ -12,3 +12,4 @@ def assign_rooms(names)
   room = []
   names.each{|i| room << "Hello, #{i}! You'll be assigned to room #{i.index}!"}
   return room
+end
